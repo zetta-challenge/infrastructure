@@ -1,0 +1,61 @@
+{
+    "cache_info": {
+        "cache_enabled": true,
+        "cache_ttl_seconds": 300
+    },
+    "cached": true,
+    "generated_at": "2025-06-08T18:27:54.680816",
+    "project_id": "devops-realm",
+    "region": "europe-west4",
+    "served_at": "2025-06-08T18:29:11.643868",
+    "summary": {
+        "network_names": [
+            "default",
+            "zetta-challenge-prod-vpc-euwest4"
+        ],
+        "total_networks": 2,
+        "total_subnets": 3
+    },
+    "vpc_networks": [
+        {
+            "creation_timestamp": "2025-06-07T03:54:59.631-07:00",
+            "description": "Default network for the project",
+            "name": "default",
+            "self_link": "https://www.googleapis.com/compute/v1/projects/devops-realm/global/networks/default",
+            "subnets": [
+                {
+                    "creation_timestamp": "2025-06-07T03:55:08.408-07:00",
+                    "ip_cidr_range": "10.164.0.0/20",
+                    "name": "default",
+                    "network": "default",
+                    "private_ip_google_access": false,
+                    "region": "europe-west4"
+                }
+            ]
+        },
+        {
+            "creation_timestamp": "2025-06-07T04:53:50.524-07:00",
+            "description": "",
+            "name": "zetta-challenge-prod-vpc-euwest4",
+            "self_link": "https://www.googleapis.com/compute/v1/projects/devops-realm/global/networks/zetta-challenge-prod-vpc-euwest4",
+            "subnets": [
+                {
+                    "creation_timestamp": "2025-06-08T08:09:15.688-07:00",
+                    "ip_cidr_range": "192.168.100.0/24",
+                    "name": "zetta-challenge-prod-proxy-subnet-euwest4",
+                    "network": "zetta-challenge-prod-vpc-euwest4",
+                    "private_ip_google_access": false,
+                    "region": "europe-west4"
+                },
+                {
+                    "creation_timestamp": "2025-06-07T04:54:07.703-07:00",
+                    "ip_cidr_range": "192.168.0.0/24",
+                    "name": "zetta-challenge-prod-subnet-euwest4",
+                    "network": "zetta-challenge-prod-vpc-euwest4",
+                    "private_ip_google_access": true,
+                    "region": "europe-west4"
+                }
+            ]
+        }
+    ]
+}
